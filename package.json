@@ -9,14 +9,50 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.6.3",
+    "@mantine/carousel": "^7.0.0",
+    "@mantine/code-highlight": "^7.0.0",
+    "@mantine/core": "^7.0.0",
+    "@mantine/dates": "^7.0.0",
+    "@mantine/dropzone": "^7.0.0",
+    "@mantine/form": "^7.0.0",
+    "@mantine/hooks": "^7.0.0",
+    "@mantine/modals": "^7.0.0",
+    "@mantine/notifications": "^7.0.0",
+    "@mantine/nprogress": "^7.0.0",
+    "@mantine/spotlight": "^7.0.0",
+    "@mantine/tiptap": "^7.0.0",
+    "@prisma/client": "^5.3.1",
+    "@tabler/icons-react": "^2.34.0",
+    "@tiptap/extension-link": "^2.1.11",
+    "@tiptap/react": "^2.1.11",
+    "@tiptap/starter-kit": "^2.1.11",
+    "@types/lodash": "^4.14.198",
+    "@types/node": "^20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
+    "dayjs": "^1.11.10",
+    "embla-carousel-react": "^8.0.0-rc14",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.2",
+    "iron-session": "^6.3.1",
+    "jotai": "^2.4.3",
+    "lodash": "^4.17.21",
     "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
-  }
+    "react-icons": "^4.11.0",
+    "react-simple-toasts": "^5.9.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.30",
+    "postcss-preset-mantine": "^1.7.0",
+    "postcss-simple-vars": "^7.0.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
